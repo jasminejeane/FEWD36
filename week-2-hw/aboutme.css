@@ -1,0 +1,53 @@
+/*JASMINE about me css file */
+
+
+header {
+	text-align: center;
+}
+
+body {
+	background-color: black;
+	font-family: "Times New Roman";
+	color: #D8D8D8;
+	padding: 20px;
+	margin: 20px;
+	border: dashed white 2px; 
+	background-image: linear-gradient(black 50%, grey);
+}
+
+
+h1{
+
+	font-family:"Courier New";
+	font-size: 45;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-family:"Courier New";
+}
+
+ol{ 
+	list-style: none;
+	margin-top: 5px;
+	padding-left: 0;
+	text-align: center;
+
+}
+
+img {
+	float: right;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border: 1px solid lightgrey;
+	padding: 3px;
+}
+
+.line {
+	display: inline;
+	
+	}
+
+
+
