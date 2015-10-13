@@ -79,7 +79,6 @@ h4 {
 .two{
 	margin-top: 2px;
 	font-size: 15px;
-	color: #494539;
 }
 
 
@@ -97,12 +96,10 @@ h4 {
 .oven {
 	margin-top: 3px;
 	font-size: 15px;
-	color: #494539;
 }
 
 li {
 	padding-bottom: 2px;
-	color: #494539;
 }
 
 
@@ -120,7 +117,7 @@ li {
 footer {
 	flex-direction: column;
 	align-items: stretch;
-	flex: 1.25;
+	flex: 1;
 	background-color: #F0D890;
 	padding: 25px;
 
@@ -142,7 +139,17 @@ h2 {
 	font-size: 13px;
 	line-height: 1.5;
 	margin-top: 2px;
-	color: #494539;
+
+}
+
+li,
+.dots,
+.related,
+.ing,
+.oven,
+.two {
+		color: #494539;
+
 }
 
 .dots {
@@ -157,7 +164,7 @@ h2 {
 .empty{
 	flex-direction: column;
 	align-items: stretch;
-	flex: 1.75;
+	flex: 2;
 }
 
 @media (max-width: 850px){
