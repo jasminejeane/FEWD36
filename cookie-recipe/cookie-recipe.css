@@ -10,6 +10,26 @@ header,
 	background-color: #F0F0D8;
 }
 
+
+.abso{
+
+position: absolute; 
+top: 198px; 
+left: 463px;
+color: white;
+font-size: 60; 
+font-family: "Courier New";
+  
+}
+
+.lute{
+
+position: absolute; 
+top: 270px; 
+left: 479px; 
+color: white;
+
+}
 header {
 	margin-right: 30px;
 	margin-left: 30px;
@@ -22,14 +42,15 @@ footer {
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 900;
 	margin-bottom: 8px;
 }
 
+
 h3 {
 	color: #A1BEA2;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 600;
 	margin-top: 7px;
 	margin-bottom: 6px;
@@ -58,6 +79,7 @@ h4 {
 .two{
 	margin-top: 2px;
 	font-size: 15px;
+	color: #494539;
 }
 
 
@@ -75,10 +97,12 @@ h4 {
 .oven {
 	margin-top: 3px;
 	font-size: 15px;
+	color: #494539;
 }
 
 li {
 	padding-bottom: 2px;
+	color: #494539;
 }
 
 
@@ -89,11 +113,14 @@ li {
 
 /*------footer-------*/
 
-footer {
+.container{
 	display: flex;
+}
+
+footer {
 	flex-direction: column;
 	align-items: stretch;
-	margin-right: 500px;
+	flex: 1.25;
 	background-color: #F0D890;
 	padding: 25px;
 
@@ -115,6 +142,7 @@ h2 {
 	font-size: 13px;
 	line-height: 1.5;
 	margin-top: 2px;
+	color: #494539;
 }
 
 .dots {
@@ -123,15 +151,36 @@ h2 {
 }
 
 .related {
-
-	
 	padding-left: 0;
 }
 
-@media (max-width: 1330px){
-	.title,
-	.dots,
-	.related,
-	 {
-		width: 0%;
+.empty{
+	flex-direction: column;
+	align-items: stretch;
+	flex: 1.75;
+}
+
+@media (max-width: 850px){
+
+	footer {
+		padding: 10px;
 	}
+}
+@media (max-width: 890px){
+	.empty {
+		flex: 0;
+	}
+}
+
+@media (min-width: 891px) and (max-width: 1000px){
+	.empty {
+		flex: .3;
+	}
+}
+
+@media (min-width: 1001px) and (max-width: 1200px){
+	.empty {
+		flex: .8;
+	}
+}
+
