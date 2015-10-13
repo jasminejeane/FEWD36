@@ -1,0 +1,137 @@
+/*/*-----HEADER----------*/
+
+body {
+	display: flex;
+	margin: 0;
+}
+
+header,
+.forcolor {
+	background-color: #F0F0D8;
+}
+
+header {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+header,
+footer {
+	font-family:"Arial";
+	
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 8px;
+}
+
+h3 {
+	color: #A1BEA2;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 7px;
+	margin-bottom: 6px;
+}
+
+
+h1,
+h2,
+h4 {
+	color: #A57243;
+}
+.secOne,
+.secTwo {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.one {
+	margin-bottom: 0px;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.two{
+	margin-top: 2px;
+	font-size: 15px;
+}
+
+
+
+/*------INGREDIENTS-------*/
+
+.ingredients,
+.howto {
+	font-size: 15px;
+	font-weight: 900;
+	margin-bottom: 3px;
+}
+
+.ing,
+.oven {
+	margin-top: 3px;
+	font-size: 15px;
+}
+
+li {
+	padding-bottom: 2px;
+}
+
+
+
+
+/*------HOW TO-------*/
+
+
+/*------footer-------*/
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-right: 500px;
+	background-color: #F0D890;
+	padding: 25px;
+
+	
+}
+
+h2 {
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.title {
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+.dots,
+.related{
+	font-size: 13px;
+	line-height: 1.5;
+	margin-top: 2px;
+}
+
+.dots {
+	
+	padding-left: 25px;
+}
+
+.related {
+
+	
+	padding-left: 0;
+}
+
+@media (max-width: 1330px){
+	.title,
+	.dots,
+	.related,
+	 {
+		width: 0%;
+	}

@@ -1,0 +1,209 @@
+
+
+<html>
+<head>
+	<title>Layout Intro</title>
+
+
+<style> 
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+td,
+span,
+article,
+p,
+h6 {
+	background: skyblue;
+	padding: 3px;
+}
+
+
+section {
+
+	display: flex;
+	align-items: center;
+	background: limegreen;
+
+}
+
+aside {
+	width: 300px;
+	background: peachpuff;
+}
+
+article,
+p {
+
+	flex: 1;
+}
+
+h6	{
+	flex: 2;
+}
+
+.sidebar {
+	background: red;
+	width: 200px;
+}
+
+.main {
+	flex: 1;
+}  /*did not show up*/
+
+
+
+.google-cfo{
+	position: relative;
+	margin: 10px auto;
+	height: 270px;
+	width: 480px;
+}
+
+.google-cfo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.google-cfo h5 {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	color: white;
+}
+
+.google-cfo div {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	width: 250px;
+	background: peachpuff;
+	font-size: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS	layout</h1>
+
+<h2>Absolute Position</h2>
+
+<div class="google-cfo">
+
+<img width= "480" height= "270" src="google-woman.jpg">
+
+<h5>Hiring women is good for business</h5>
+	<div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	</div>
+</div>
+
+<h2>Table layout</h2>
+
+<table>
+	<tr>
+		<td>Column 1</td>
+		<td>Column 2</td>
+		<td>Column 3</td>
+
+	</tr>
+
+</table>
+
+<h2>Flexbox</h2>
+
+<h3>Natural Width</h3>
+
+<section>
+	<p>Display Flex</p>
+	<div>Column 1</div>
+	<div>Column 2</div>
+	<div>Column 3</div>
+</section>
+
+<h3>Sidebar</h3>
+
+<section>
+	<p>Display Flex</p>
+	<aside>Column 1</aside>
+	<span>Column 2</span>
+	<span>Column 3</span>
+</section>
+
+
+<h3>Sidebar with class</h3>
+
+<section>
+	<p>Display Flex</p>
+	<span class="sidebar">Sidebar</aside>
+	<span class="main">Main</span>
+	<span>Column 3</span>
+</section>
+
+
+
+
+<h3>Three even columns</h3>
+
+<section>
+	<p>Display Flex</p>
+	<article>Column 1-(Flex1)</article>
+	<article>Column 2-(Flex1)</article>
+	<article>Column 3-(Flex1)</article>
+</section>
+
+
+<h3>One large column, two small</h3>
+
+<section>
+	<p>Display Flex</p>
+	<h6>Column 1</h6>
+	<p>Column 1</p>
+	<p>Column 1</p>
+
+</section>
+<p>Display Flex</p>
+
+<h3>Single column</h3>
+
+<section>
+<p>Display Flex</p>
+<aside>Column 1</aside>
+<article>Column 2-(Flex1)</article>
+</section>
+
+
+<h3>Holy grail!!!</h3>
+
+<section>
+	<p>Display Flex</p>
+	<article>(Flex1)Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+	<article>(Flex1)Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut i officia deserunt mollit anim id est laborum.</article>
+	<article>(Flex1)Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incialest laborum.</article>
+</section>
+
+<!-- to be cont. -->
+<h3>Flex row</h3>
+<section>
+	<p>Display Flex</p>
+<article>Column 1(Flex1)</article>
+<article>Column 2(Flex1)</article>
+
+</section>
+</body>
+</html>
