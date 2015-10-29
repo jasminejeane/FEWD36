@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: pink;
+}
+h1 {
+  font-size: 20px;
+}
+input {
+  font-size: inherit;
+  line-height: inherit;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[disabled] {
+  border: 0;
+}
+.panel {
+  margin-bottom: 100px;
+}
+
+
+.temp-f,
+.temp-c {
+  width: 80px;
+}
+.temp {
+  padding-left: 150px;
+}
+
+
+
+@media (.temp-f > 10){
+
+	body {
+		background-color: green;
+	}
+}
