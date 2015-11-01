@@ -1,0 +1,33 @@
+.stoplight {
+    flex: 1;
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    border-radius: 45px;
+}
+
+.content{
+
+ display: flex;
+ width: 800px;
+/* padding: */
+
+}
+
+body {
+    background-color: blue;
+}
+
+.nav {
+  flex: 1;
+}
+
+.abso{
+
+position: absolute; 
+top: 198px; 
+left: 463px;
+color: white;
+
+  
+}
