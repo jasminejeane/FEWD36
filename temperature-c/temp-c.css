@@ -62,3 +62,8 @@ input {
 .group{
   justify-content: center;
 }
+
+.sonny {
+  background-image: url(lightening.jpg);
+  font-size: 30px;
+}
