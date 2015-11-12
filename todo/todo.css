@@ -1,0 +1,54 @@
+* {
+	font-family: Arial;
+}
+
+
+h2 {
+	background-color: purple;
+	margin-bottom: 0;
+	}
+
+form, 
+h2 {
+	text-align: center;
+}
+
+.box {
+	display: flex;
+	padding-left: 15%;
+	padding-right: 15%;
+
+}
+
+
+form {
+
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+	background-color: #e18411;
+	height: 100px;
+	width: 50px;
+}
+
+input,
+button {
+	width: 200px;
+	padding: 5px 10px;
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+
+
+button {
+	width: 100px;
+}
+
+.route {
+	margin-top: 5px;
+}
+
+

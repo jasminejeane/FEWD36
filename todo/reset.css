@@ -1,0 +1,14 @@
+
+/*css reset*/
+
+*{
+
+	margin: 0;
+	border: 0;
+}
+
+
+ul{
+
+	list-style: none;
+}
