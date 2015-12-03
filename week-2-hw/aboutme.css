@@ -6,13 +6,13 @@ header {
 }
 
 body {
-/*	background-color: black;
-*/	font-family: "Times New Roman";
+	background-color: black;
+	font-family: "Times New Roman";
 	color: #D8D8D8;
 	padding: 20px;
 	margin: 20px;
-/*	border: dashed white 2px; 
-*/	background-image: linear-gradient(black 50%, grey);
+	border: dashed white 2px; 
+	background-image: linear-gradient(black 50%, grey);
 }
 
 
@@ -36,7 +36,7 @@ ol{
 
 }
 
-.jasmine {
+img {
 	float: right;
 	margin-bottom: 20px;
 	margin-left: 20px;
