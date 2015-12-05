@@ -1,0 +1,97 @@
+<html>
+<head>
+	<title>Street Array</title>
+</head>
+<body>
+
+
+
+
+
+<style>
+input,
+button{
+	width: 200px;
+	padding: 5px 10px;
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 18px;
+	line-height: 24px;
+
+}
+
+button {
+	width: 100px;
+}
+
+</style>
+
+<form>
+	<input class ="input" placeholder= "Street">
+	<button>Add</button>
+</form>
+
+<form>
+    <button class="route">Route</button>
+</form>
+
+<ul></ul>
+
+<script>
+// Structure
+var form = document.querySelector("form");
+var street = document.querySelector("input");
+var list = document.querySelector("ul");
+var route = document.querySelector(".route");
+
+// Events
+
+form.addEventListener("submit", addstreet);
+// Setup
+var streets = [];
+
+// Event handler functions*/
+
+function addstreet(e) {
+    e.preventDefault(); 
+    streets.push(street.value);
+
+    //clean up
+    form.reset();
+}
+
+
+function showRoute(e) {
+    console.log("showRoute");
+    streets.forEach(directions);
+}
+
+
+
+
+function directions(item) {
+
+    var streetValue = street.value;
+    // Step 1 create element
+    var street1 = document.createElement("li");
+
+    // Step 2 bling element
+    street1.textContent = item;
+
+
+    //Step 3 surgically insert our element
+    list.appendChild(street1);
+}
+
+</script>
+</style>
+</body>
+</html>
+
+
+<!-- Call Backs
+1) .addEventListener() - function that is called one time when the event happens - event
+
+2) .forEach() - funcion that is called onetime for each item in the array - item
+
+ -->

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>create element</title>
+</head>
+<body>
+
+<ul>
+	<li>blue</li>
+	<li>green</li>
+	<li>red</li>
+</ul>
+
+<label>
+		Name
+		<input class="username">
+	</label>
+	<label>
+		Comment
+		<input class= "comment">
+
+	</label>
+<button>Post</button>
+<script>
+
+//Structure
+var list = document.querySelector("ul");
+var button = document.querySelector("button");
+var username = document.querySelector(".username");
+var comment = document.querySelector(".comment");
+
+console.log(username);
+console.log(comment);
+
+
+button.addEventListener("click", addComment)
+
+
+// Event handler function
+function addComment(e){
+	console.log(e);
+	var key = e.keyCode;
+
+
+	if (key && key != 13) {
+		return;
+	};
+
+var usernameValue = username.value;
+var commentValue = comment.value;
+
+color = prompt("What color would you like");
+	//1 - create the element
+var newItem = document.createElement("LI");
+
+//2 decorate the element
+newItem.textContent = usernameValue + ": "+ commentValue;
+
+//insert the element
+list.appendChild(newItem);
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>Arrays intro</title>
+</head>
+<body>
+
+<h1>Array intro</h1>
+
+</body>
+</html>
+
+
+
+<script>
+
+var h1 =document.querySelector("h1");
+h1["textContent"] = "Wednesday Nov 4";
+
+//hotel is the object-- compose of properties
+var hotel = {
+	name: "Chateau Fewdo",
+	vacancy: true,
+	price: "$264",
+	rating: "4.2",
+	location: ["123 Main St", "Main at Howard", "San Francisco", "CA"]
+}
+
+h1.textContent = hotel["name"] + + hotel["price"] + + hotel ["rating"];
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- //notes -->
+
+<!-- Agenda 
+-Arrays
+- Loops
+
+Creating Arrays
+1. Literal Notation
+
+only put like data into an array
+maintain their order
+accessed by position/ index
+var nammes should be plural (good habit)
+any object type
+
+Two Notations
+
+Dot Notation
+-p.textContent
+-works with all varible names
+aka identified names
+- variable & property name must start w/ a letter
+
+
+Bracket Notation
+-p ["textContent"]
+-expects a string, or coerced to a string
+-eg a[0], a["_"]
+
+When to use bracket Notation
+-when property is a number(Array!)
+-prop.name contains special characters
+	eg: data["first name"]
+-prop.name is in a variable
+
+you can string together bracket notation
+event["target"]["className"]
+
+
+
+
+JSON
+API
+ -->
+
+
+
+
+
+
+
+
+
+
+
