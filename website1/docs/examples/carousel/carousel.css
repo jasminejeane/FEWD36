@@ -1,0 +1,780 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+* {
+  font-family: matrix;
+}
+
+body {
+
+  margin: 40px;
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+
+@font-face {
+/*  font-family: EraserDust;
+  src: url('eraser/EraserDust.ttf')*/
+  font-family: matrix;
+  src: url('matrix.ttf');
+
+}
+
+
+
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/*added css*/
+
+video {
+
+      position: relative; 
+}
+
+#videoborder {
+   
+    border-radius: 5px;
+/*    border: 5px solid #333;
+*/    box-shadow: 0px 10px 20px 20px #181818; /* Standard */
+}
+
+
+.animated.zoomIn  {
+  color:  white;
+  position: absolute; 
+   transition: ease;
+   width: 100%;
+    font-size:  70px;
+       font-weight: bold;
+
+
+}
+
+.front {
+
+  top: 150px; 
+   left: 0; 
+
+}
+
+.fun {
+
+  top: 220px;
+  left: 0;
+}
+
+
+
+
+
+
+.matrixfont {
+  
+  font-size: 50px;
+  font-family: matrix;
+
+   
+}
+
+.fontone {
+  text-shadow: 0 0 0.2em  #8F7, 0 0 0.2em  #8F7,
+        0 0 0.2em  #8F7
+}
+
+
+.bluequote {
+
+    color:  white;
+    position: absolute; 
+    font-size:  23px;
+    /*font-weight: bold;*/
+      font-style: italic;
+    top: 380px; 
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+}
+
+
+.blue,
+.red {
+
+
+    color:  white;
+    position: absolute; 
+    font-size:  20px;
+    top: 380px; 
+    border: 2px solid black;
+    padding: 8px;
+    width: 150px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 5px 1px #fff; /* Standard */
+
+
+
+
+}
+
+
+
+
+.submit{
+
+  color:  white;
+     
+    font-size:  20px;
+    
+    border: 2px solid black;
+    padding: 8px;
+    width: 150px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 5px 1px #fff
+
+
+
+   background: rgba(0,0,255, 0.6); 
+  
+  /*border: 1px solid lightgrey;*/
+
+
+}
+
+
+.blue{
+
+   right: 400px; 
+   background: rgba(0,0,255, 0.2); 
+  
+  /*border: 1px solid lightgrey;*/
+
+
+}
+
+.red {
+
+   left: 400px;
+   background: rgba(200, 54, 54, 0.5);
+   opacity: 0.5px; 
+
+   
+}
+
+
+.cboardtext {
+
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  top: 150px;
+  text-align: center;
+  padding: 15px;
+
+}
+
+
+
+
+.push-5-center {
+
+  text-align: center;
+}
+
+li {
+
+  list-style: none;
+}
+
+
+.lileft{
+float: left;
+}
+
+.liright {
+  float: right;
+}
+
+
+#mission {
+
+  margin-top: 40px;
+  position: relative;
+  font-family: matrix;
+}
+
+
+.colorlight img{ 
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%); 
+-webkit-transition: all 1s ease; 
+}
+
+
+.colorlight img:hover{ 
+filter: grayscale(0%);
+filter: #39FF14; 
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+
+
+
+
+.totop {
+
+padding-top:20px;
+  padding-left: 100px;
+}
+
+.totop2 {
+
+padding-top:5px;
+  padding-left: 500px;
+}
+
+.lead1 {
+  font-size: 16px;
+  position: relative;
+}
+
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+
+.shrink img {
+transition: 1s ease;
+}
+
+
+.shrink img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+
+
+.hello1 {
+  position: absolute;
+
+top: 500px;
+font-size: 30px;
+color: white;
+}
+
+#mainimg {
+  position: absolute;
+  top: 20px; 
+  left: 900px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 10px #181818;
+}
+
+#rborder {
+   box-shadow: 0px 10px 20px 0px #333; 
+
+}
+
+
+/*// I want the mind picture to be up a little
+ higher so that you can see the mind*/
+#resources {
+
+  background: url(mind.jpg) no-repeat 50% 0 fixed;
+  height: 310px;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  background-size: cover;
+ 
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+/*.helloworld {
+  display: flex;
+}*/
+
+.middlecontent {
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+#aborder {
+
+     box-shadow: 0px 10px 20px 0px #333;
+
+}
+
+
+#aboutme {
+
+  background: linear-gradient(black 50%, grey) 50% 0 fixed;
+    height: 310px;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+
+}
+
+.trinity{
+
+  font-family: matrix;
+  font-size: 50px;
+  text-shadow: 0 0 0.2em  #8F7, 0 0 0.2em  #8F7,
+        0 0 0.2em  #8F7;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.shadow {
+   text-shadow: 0 0 0.2em  #8F7, 0 0 0.2em  #8F7,
+        0 0 0.2em  #8F7;
+}
+
+#html:hover {
+  background: url(trinity.jpg) no-repeat 50%;
+  box-shadow: 0px 10px 20px 0px #333;
+     transition: ease;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#bonus {
+
+  margin-top: 40px;
+}
+
+#lastquote {
+
+    background: url(rabbit1.jpg) no-repeat 50%;
+   ;
+
+    color: white;
+    font-size: 25px;
+
+}
+
+/*this is only to stretch the height of the lastpic*/
+
+
+/*.html:hover { 
+    background-color: blue;
+}*/
+
+.html {
+  text-align: center;
+
+}
+
+.h1 {
+  color: black;
+}
+
+.navbar-inverse {
+   background-color: black;
+   opacity: 0.5;
+   height: 60px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.contact {
+
+ display: flex;
+ justify-content: center;
+}
+
+/*.lastchance span {
+  color: black;
+}*/
+
+.well {
+      background: black;
+      /*background: url(icon1.jpg) no-repeat;*/
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+      position: relative;
+      /*if it could have a border*/
+    /*  border-radius: 5px;*/
+}
+
+
+
+
+/*middle content*/
+
+.middlecontent {
+ 
+
+ margin-left: 100px;
+margin-right: 100px;
+
+}
+
+
+
+.icon {
+  position: relative;
+}
+
+.nuggets {
+  max-width: 100%;
+  border-radius: 7px;
+
+
+}
+
+.form-horizontal {
+
+  margin-left: 70px;
+  margin-right: 200px;
+}
+
+
+
+#submit, #nosubmit {
+
+  margin-top: 15px;
+  color:  white;
+  font-family: matrix;
+     
+    font-size:  15px;
+    
+    border: 2px solid black;
+    padding: 8px;
+    width: 150px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 5px 1px #fff;
+
+}
+
+
+#submit {
+
+     background: rgba(0,0,255, 0.6); 
+
+
+}
+
+#nosubmit {
+
+   background: rgba(200, 54, 54, 0.9);
+
+
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/*Typing animation*/
+
+.undertext {
+
+   color:  white;
+    position: absolute; 
+   /* font-size:  25px;
+    top: 380px; 
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 150px;
+    text-shadow: 0px 1px 5px 1px #fff; /* Standard */
+*/
+   
+}
+
+
+.undertext{
+  color: white; 
+  font-family: "Courier New";
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 45em;
+  animation-delay: 2s;
+  animation: type 14s infinite;
+}
+
+/*.undertext:nth-child(2){
+  animation: type2 5s;
+}*/
+
+.undertext a{
+  color: lime;
+  text-decoration: none;
+}
+
+.undertext span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+/*
+::selection{
+  background: black;
+}*/
+
+
+
+
+
+/*radio active buttons*/
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #8F7; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #8F9; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #8F7; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+.interview {
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/*.what{
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  
+
+}*/
+
+.how{
+  -webkit-animation-name: magentaPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+
+
+/*dialog box*/
+/*
+#dialogoverlay{
+  display: none;
+  opacity: .8;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #FFF;
+  width: 100%;
+  z-index: 10;
+}
+#dialogbox{
+  display: none;
+  position: fixed;
+  background: #000;
+  border-radius:7px; 
+  width:550px;
+  z-index: 10;
+}
+
+  #dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
+
+*/
+
+
+/*responsive media querie*/
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .me {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1299px) {
+
+  .middlecontent {
+
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1208px) {
+
+  
+.middlecontent{
+  display: none;
+}
+
+}
