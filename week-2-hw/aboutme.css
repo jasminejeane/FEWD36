@@ -13,6 +13,12 @@ body {
 	margin: 20px;
 	border: dashed white 2px; 
 	background-image: linear-gradient(black 50%, grey);
+
+}
+
+a {
+
+	color: purple;
 }
 
 
@@ -28,11 +34,27 @@ h2 {
 	font-family:"Courier New";
 }
 
+.contact{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.fill {
+  background: purple;
+  color:pink;
+  border-bottom: 2px white solid;
+  font-family: 'Shadows Into Light';
+  font-weight: bold;
+  padding: 0 6px;
+  margin: 4px;
+  }
+
 ol{ 
 	list-style: none;
 	margin-top: 5px;
 	padding-left: 0;
 	text-align: center;
+	font-weight: bold;
 
 }
 
@@ -41,6 +63,7 @@ img {
 	margin-bottom: 20px;
 	margin-left: 20px;
 	border: 1px solid lightgrey;
+	box-shadow: 3px 3px 5px 6px #885ead;
 	padding: 3px;
 }
 
